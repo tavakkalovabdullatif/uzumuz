@@ -294,6 +294,36 @@ ul {
     margin-top: 32px;
 }
 
+
+
+/* Arzon narxlar */
+.rasm {
+    position: relative;
+}
+
+.yurakcha {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 38px;
+}
+
+.eksklyuziv {
+    position: absolute;
+   left: 20px;
+   top: 307px;
+    background-color: var(--o-lonestar);
+    color: var(--o-nero);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 21px;
+
+}
+
+
+
+
 .footer-bottom {
     display: flex;
     align-items: center;
