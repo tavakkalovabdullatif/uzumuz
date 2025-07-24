@@ -1,3 +1,19 @@
+:root {
+    --o-AthensGray: #F2F4F7;
+    --o-Manate: #8B8E99;
+    --o-midgray: #595B66;
+    --o-shark: #1F2026;
+    --o-lonestar: #7000FF;
+    --o-nero: #FFFFFF;
+    --o-diesel: #FFFF00;
+    --o-frenchrose: #F4488D;
+    --o-rose: #E8007C;
+    --o-pigmentindigo: #3B007D;
+    --o-moonraker: #BEC2F2;
+}
+
+
+
 /* FONTS */
 @font-face {
     font-family: 'Inter 18pt';
@@ -50,7 +66,9 @@
 }
 
 .header {
-    background-color: #F2F4F7;
+    background-color: var(--o-AthensGray);
+    font-size: 14px;
+    line-height: 14px;
 }
 
 .header-container {
@@ -69,6 +87,10 @@
 .moljal {
     display: flex;
     gap: 5px;
+}
+
+.shahar {
+    color: var(--o-shark);
 }
 
 .header-savol-javoblar {
