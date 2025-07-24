@@ -93,15 +93,43 @@
     color: var(--o-shark);
 }
 
+.toshkent {
+    color: var(--o-shark);
+}
+
+.topshirishpunktlaricontent {
+    color: var(--o-shark);
+}
+
+.Buyurtmangizcontent {
+    color: var(--o-Manate);
+}
+
 .header-savol-javoblar {
     display: flex;
     gap: 15px;
     align-items: center;
     justify-content: center;
+}
 
+.savol {
+    color: var(--o-midgray);
+    text-decoration: none;
+}
+
+.Buyurtmalarim {
+    color: var(--o-midgray);
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 .uzbbayroq {
     display: flex;
     align-items: center;
+}
+
+.ozbekcha {
+    color: var(--o-shark);
+    text-decoration: none;
+    margin-left: 6px;
 }
