@@ -304,14 +304,14 @@ ul {
 .yurakcha {
     position: absolute;
     z-index: 1;
-    left: 210px;
-    top: 38px;
+    /* left: 210px;
+    top: 38px; */
 }
 
 .eksklyuziv {
     position: absolute;
-   left: 20px;
-   top: 307px;
+   /* left: 20px;
+   top: 307px; */
     background-color: var(--o-lonestar);
     color: var(--o-nero);
     padding: 4px 8px;
