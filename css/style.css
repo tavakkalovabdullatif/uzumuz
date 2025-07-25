@@ -282,11 +282,11 @@ ul {
 .arzonnarxlar-content {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(6fr, 1fr);
-    grid-template-rows: repeat(5fr, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
-.card:first-child {
+.card:nth-child(1) {
     grid-column: 1fr / 2fr;
     grid-row: 1fr / 2fr;
 }
