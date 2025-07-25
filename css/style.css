@@ -255,6 +255,27 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Arzon narxlar */
 .arzonnarxlar-content {
     display: grid;
@@ -263,24 +284,20 @@ ul {
 
 .card {
     margin-top: 21px;
-}
-
-
-.rasm {
     position: relative;
 }
 
 .yurakcha {
     position: absolute;
     z-index: 1;
-    /* left: 210px;
-    top: 38px; */
+    left: 210px;
+    top: 38px;
 }
 
 .eksklyuziv {
     position: absolute;
-   /* left: 20px;
-   top: 307px; */
+   left: 20px;
+   top: 307px;
     background-color: var(--o-lonestar);
     color: var(--o-nero);
     padding: 4px 8px;
@@ -337,6 +354,32 @@ ul {
 .savatcha {
     padding-left: 110px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -427,6 +470,13 @@ ul {
     }
 }
 
+@media (max-width: 750px) {
+    .footer-bottom {
+        flex-wrap: wrap;
+    }
+    
+}
+
 @media (max-width: 660px) {
     .katalog {
         display: none;
@@ -435,6 +485,12 @@ ul {
     .kirish {
         display: none;
     }
+
+        .footer-top-links {
+            flex-wrap: wrap;
+            
+        }
+       
 }
 
 @media (max-width: 520px) {
