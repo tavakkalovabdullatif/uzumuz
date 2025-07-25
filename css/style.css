@@ -255,6 +255,93 @@ ul {
 
 
 
+/* Arzon narxlar */
+.arzonnarxlar-content {
+    display: grid;
+    grid-template-columns: repeat(5fr, 1fr);
+}
+
+.card {
+    margin-top: 21px;
+}
+
+
+.rasm {
+    position: relative;
+}
+
+.yurakcha {
+    position: absolute;
+    z-index: 1;
+    /* left: 210px;
+    top: 38px; */
+}
+
+.eksklyuziv {
+    position: absolute;
+   /* left: 20px;
+   top: 307px; */
+    background-color: var(--o-lonestar);
+    color: var(--o-nero);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.yogtext {
+    font-size: 13px;
+    line-height: 16px;
+    width: 216px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.yulduztext {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--o-Manate);
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
+.oynarxi {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 17px;
+    background-color: var(--o-diesel);
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.aniqnarx {
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+}
+
+.eskinarx {
+    font-size: 11px;
+    line-height: 13.4px;
+    color: var(--o-Manate);
+}
+
+.yanginarx {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.savatcha {
+    padding-left: 110px;
+}
+
+
+
+
+
 /* FOOTER */
 .footer {
     font-size: 14px;
@@ -294,32 +381,6 @@ ul {
     margin-top: 32px;
 }
 
-
-
-/* Arzon narxlar */
-.rasm {
-    position: relative;
-}
-
-.yurakcha {
-    position: absolute;
-    z-index: 1;
-    /* left: 210px;
-    top: 38px; */
-}
-
-.eksklyuziv {
-    position: absolute;
-   /* left: 20px;
-   top: 307px; */
-    background-color: var(--o-lonestar);
-    color: var(--o-nero);
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 13px;
-    line-height: 21px;
-
-}
 
 
 
