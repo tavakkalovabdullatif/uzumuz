@@ -282,8 +282,8 @@ ul {
 .arzonnarxlar-content {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr);
 }
 
 .card:nth-child(1) {
