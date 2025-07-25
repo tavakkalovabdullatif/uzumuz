@@ -11,6 +11,7 @@
     --o-pigmentindigo: #3B007D;
     --o-moonraker: #BEC2F2;
     --o-turbo: #F0F0FF;
+    --o-black: #FF0000;
 }
 
 
@@ -18,32 +19,32 @@
 /* FONTS */
 @font-face {
     font-family: 'Inter 18pt';
-    src: url('../fonts/Inter18pt-Medium.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Medium.woff') format('woff');
+    src: url('../fonts/Inter18pt-Medium.woff2/') format('woff2'),
+        url('../fonts/Inter18pt-Medium.woff/') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-        url('../fonts/Roboto-Medium.woff') format('woff');
+    src: url('../fonts/Roboto-Medium.woff2/') format('woff2'),
+        url('../fonts/Roboto-Medium.woff/') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-        url('../fonts/Roboto-Regular.woff') format('woff');
+    src: url('../fonts/Roboto-Regular.woff2/') format('woff2'),
+        url('../fonts/Roboto-Regular.woff/') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter 18pt';
-    src: url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Regular.woff') format('woff');
+    src: url('../fonts/Inter18pt-Regular.woff2/') format('woff2'),
+        url('../fonts/Inter18pt-Regular.woff/') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -277,83 +278,307 @@ ul {
 
 
 /* Arzon narxlar */
+
+.arzon-narxlar-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.arzon-narxlar-title {
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--o-shark);
+}
+
+.arzon-narxlar-icon {
+    padding-top: 5px;
+    color: var(--o-shark);
+}
+
+
+
+
 .arzonnarxlar-content {
     display: grid;
     grid-template-columns: repeat(5fr, 1fr);
+    grid-template-rows: repeat(4fr, 1fr);
 }
+
+.card:nth-child(1) {
+    grid-column: 1fr, 2fr;
+}
+
+
+.card:nth-child(2) {
+    grid-column: 2fr, 3fr;
+}
+
+
+
 
 .card {
-    margin-top: 21px;
-    position: relative;
+    padding-top: 21px;
 }
 
-.yurakcha {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 38px;
+.card-img {
+    position: relative;
+    border-radius: 8px;
 }
+
+.saralanganlar {
+    position: absolute;
+    top: 12px;
+    left: 200px;
+}
+
+/* .saralanganlar:hover {
+    
+} */
 
 .eksklyuziv {
     position: absolute;
-   left: 20px;
-   top: 307px;
     background-color: var(--o-lonestar);
-    color: var(--o-nero);
-    padding: 4px 8px;
-    border-radius: 4px;
     font-size: 13px;
     line-height: 21px;
+    color: var(--o-nero);
+    padding: 4px 6px;
+    border-radius: 4px;
+    top: 282px;
 }
 
-.yogtext {
+.aksiya {
+    background-color: var(--o-pigmentindigo);
     font-size: 13px;
-    line-height: 16px;
-    width: 216px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 287px;
+    left: 1px;
+}
+
+.DIsport {
+    background-color: var(--o-black);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 286px;
+    left: 1px;
+}
+
+.AksiyaPepsi {
+   background-color: var(--o-lonestar);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 286px;
+    left: 1px; 
+}
+
+
+.Vaqtinchalikchegirma {
+    background-color: var(--o-frenchrose);
+    color: var(--o-nero);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 287px;
+    left: 51px;
+}
+
+
+
+.card-timer-text {
+    align-items: center;
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.timer-text {
+    margin-left: 4px;
+    font-size: 11px;
+    line-height: 11px;
+    color: var(--o-frenchrose);
+}
+
+
+
+
+.card-texts {
+    padding-top: 8px;
     padding-left: 8px;
     padding-right: 8px;
+    font-size: 13px;
+    line-height: 16px;
 }
 
-.yulduztext {
-    display: flex;
+/* card-texts */
+.card-text {
+    font-size: 14px;
+    line-height: 14px;
+    max-width: 232px;
+    width: 100%;
+}
+
+.card-star-text {
     align-items: center;
-    font-size: 12px;
-    line-height: 12px;
-    color: var(--o-Manate);
+    display: flex;
+    padding-top: 6px;
     padding-bottom: 6px;
-    padding-top: 5px;
 }
 
-.oynarxi {
+
+
+.star-text {
+    margin-left: 4px;
+    font-size: 11px;
+    line-height: 11px;
+    color: var(--o-Manate);
+    
+}
+
+.price-month {
     display: inline-block;
     font-size: 11px;
     line-height: 17px;
     background-color: var(--o-diesel);
-    border-radius: 4px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 4px;
 }
 
-.aniqnarx {
+.price-month1 {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 17px;
+    background-color: var(--o-diesel);
+    margin-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+}
+
+
+.prices {
     display: flex;
     align-items: center;
-    padding-top: 17px;
+    margin-top: 18px;
 }
 
-.eskinarx {
+.price {
+    margin-right: 103px;
+}
+
+.old-price {
     font-size: 11px;
-    line-height: 13.4px;
+    line-height: 13px;
     color: var(--o-Manate);
 }
 
-.yanginarx {
+.new-price {
     font-size: 14px;
     line-height: 17px;
+    color: var(--o-shark);
 }
 
-.savatcha {
-    padding-left: 110px;
+
+
+
+
+.button {
+    margin-top: 40px;
+    margin-bottom: 466px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.button20 {
+    display: inline-block;
+    font-size: 16px;
+    /* padding: 19px, 298px; */
+    padding-left: 298px;
+    padding-right: 298px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius: 8px;
+    background-color: var(--o-AthensGray);
+    color: var(--o-shark);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Elektronika */
+
+.elektroonika-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.Elektronika-title {
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--o-shark);
+}
+
+.elektronika-icon {
+    padding-top: 5px;
+    color: var(--o-shark);
+}
+
+
+
+.aksiya1 {
+    background-color: var(--o-pigmentindigo);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 287px;
+    left: 131px;
+}
+
+
+.Vaqtinchalikchegirma1 {
+    background-color: var(--o-frenchrose);
+    color: var(--o-nero);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 287px;
+    left: 1px;
+}
+
+.card-star-text1 {
+    align-items: center;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
 
 
 
