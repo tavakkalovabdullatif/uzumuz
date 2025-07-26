@@ -523,7 +523,7 @@ ul {
 
 .button {
     margin-top: 40px;
-    margin-bottom: 466px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -533,7 +533,6 @@ ul {
     margin-right: auto;
     display: inline-block;
     font-size: 16px;
-    padding: 19px, 298px;
     padding: 19px 298px;
     border-radius: 8px;
     background-color: var(--o-AthensGray);
@@ -778,6 +777,15 @@ ul {
 
 
 /* RESPONSIVE */
+
+
+@media (max-width: 1350px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    }  
+}
 
 @media (max-width: 1280px) {
     .cards {
