@@ -510,6 +510,8 @@ ul {
 }
 
 .new-price {
+    max-width: 300px;
+    width: 100%;
     font-size: 14px;
     line-height: 17px;
     color: var(--o-shark);
@@ -587,6 +589,19 @@ ul {
 }
 
 
+.aksiya2 {
+    background-color: var(--o-pigmentindigo);
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    color: var(--o-nero);
+    padding: 1px 6px;
+    border-radius: 4px;
+    top: 287px;
+    left: 1px;
+}
+
+
 .Vaqtinchalikchegirma1 {
     background-color: var(--o-frenchrose);
     color: var(--o-nero);
@@ -642,6 +657,11 @@ ul {
 
 .card1:nth-child(4) {
     grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.card1:nth-child(5) {
+    grid-column: 5 / 6;
     grid-row: 1 / 2;
 }
 
